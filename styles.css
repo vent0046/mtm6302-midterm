@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.main
+{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	font-size: 60px;
+}
+#storylist, #providewords
+{
+	
+	text-align: center;
+}
+#readstory
+{
+	background: #8FB8ED;
+	text-align: center;
+	display: none;
+	padding: 20px;
+	
+}
+
+#createAnotherStory{
+	width: auto;
+}
+.storytitle
+{
+	font-weight: bold;
+	padding: 10px 10px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #efefef;
+	cursor: pointer;
+	background-color: #d4d3d2;
+}
+.storytitle:hover
+{
+	background: #3590F3;
+	color: white;
+}
+.wordsTextBox
+{
+	padding: 5px 10px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+#readStoryBtn, #createAnotherStory
+{
+	font-weight: normal;
+	padding: 10px 10px;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+	background: #3590F3;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #3590F3;
+}
+.word
+{
+text-decoration: underline;
+}
